@@ -16,10 +16,10 @@ import "fmt"
 
 func main() {
 	type (
-		// integer int
+		integer int
 
-		bookcase [5]int
-		cabinet  [5]int
+		bookcase [5]integer
+		cabinet  [5]integer
 		//          ^- try changing this to: integer
 		//             but first: uncomment the integer type above
 	)

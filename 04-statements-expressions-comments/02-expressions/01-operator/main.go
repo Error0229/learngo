@@ -14,4 +14,6 @@ import (
 
 func main() {
 	fmt.Println("Hello!" + "!")
+	var you = "you"
+	fmt.Println("hey" + you)
 }

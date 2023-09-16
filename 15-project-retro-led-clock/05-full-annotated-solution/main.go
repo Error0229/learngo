@@ -172,7 +172,7 @@ func main() {
 			// After each line of a placeholder, print a newline
 			fmt.Println()
 		}
-
+		fmt.Println()
 		// pause for 1 second
 		time.Sleep(time.Second)
 	}

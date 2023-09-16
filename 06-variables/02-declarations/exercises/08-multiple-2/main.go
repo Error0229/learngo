@@ -8,6 +8,8 @@
 
 package main
 
+import "fmt"
+
 // ---------------------------------------------------------
 // EXERCISE: Multiple #2
 //
@@ -31,6 +33,8 @@ func main() {
 
 	// REPLACE THE QUESTION-MARKS BELOW
 	// WITH THE NAME OF YOUR VARIABLES
-
-	// fmt.Printf("%q %q\n", ?, ?)
+	var firstName, lastName string
+	firstName = "John"
+	lastName = "Doe"
+	fmt.Printf("%q %q\n", firstName, lastName)
 }

@@ -18,4 +18,5 @@ func main() {
 	f = min // OK when min is typeless
 
 	fmt.Println(f)
+	fmt.Printf("%T, %T\n", f, min)
 }

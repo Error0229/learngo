@@ -15,7 +15,7 @@ func main() {
 	ages := []int{35, 15, 25}
 	first := ages[0:1]
 	last2 := ages[1:3]
-
+	cutes := []string{"🐼", "💀"}
 	ages[0] = 55
 	ages[1] = 10
 	ages[2] = 20
@@ -28,7 +28,7 @@ func main() {
 	s.Show("ages[0:1]", first)
 	s.Show("ages[1:3]", last2)
 	s.Show("grades", grades)
-
+	s.Show("cutes", cutes)
 	// let's create a new scope
 	// 'cause I'm going to use variables with the same name
 	{

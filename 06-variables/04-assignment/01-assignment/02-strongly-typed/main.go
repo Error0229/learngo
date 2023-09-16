@@ -21,7 +21,7 @@ func main() {
 	// speed = "100"
 
 	var running bool
-	// running = 1
+	running = true
 
 	var force float64
 	// speed = force
